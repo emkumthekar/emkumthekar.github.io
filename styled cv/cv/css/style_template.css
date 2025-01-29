@@ -1,0 +1,290 @@
+/* General Styles */
+body {
+
+
+    margin: 0px 0px 0px;
+    background-color: #EAE0D5;
+    padding: 20px;
+
+
+}
+
+
+.funnel-display{
+    font-family: "Funnel Display", serif;
+   
+
+  }
+  .anta-regular {
+    font-family: "Anta", serif;
+   
+  }
+  
+/* Nav Styles */
+nav {
+
+    display: flex; 
+   
+
+    margin: 0px 0px 0px;
+    background-color: #C6AC8F;
+    box-shadow: 3px 4px 1px #22333B;
+    border-radius: 5px;
+    font-family: "Funnel Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    width: 100%;
+    justify-content: left;
+
+    flex-flow: row wrap;
+        
+        
+    
+}
+.menu{
+    display: flex; 
+    flex-flow: row wrap;
+
+}
+
+nav p, nav a {
+    display: flex; 
+    flex-flow: column wrap;
+}
+
+nav a {
+    color: #698996;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #5E503F;
+        text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+
+    margin: 0px 0px 0px;
+    
+    background-color:#C6AC8F;
+    box-shadow: 3px 4px 1px #22333B;
+    border-radius: 5px;
+    display: flex; 
+   align-content: center;
+   font-family: "Funnel Display", serif;
+   font-weight: 400;
+   font-style: normal;
+   justify-content: center;
+   padding: 1%;
+   
+    
+
+}
+
+footer a {
+    color: #698996;
+        text-decoration: none;
+   
+}
+
+footer a:hover {
+    color: #5E503F;
+        text-decoration: none;
+}
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+
+.splash h1 {
+
+    font-family: "Anta", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #698996;
+}
+
+.splash img {
+    border-radius: 50%;
+   
+}
+
+.splash p {
+    font-family: "Funnel Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #5E503F;
+    
+     
+}
+
+/* Horizontal Rules */
+hr {
+    border-top: 4px dashed #C6AC8F;
+}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {
+    font-family: "Anta", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #698996;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: "Funnel Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #22333B;
+}
+
+/* link styles */
+section a {
+    color: #698996;
+    text-decoration: none;
+}
+section a:hover {
+    color: #5E503F;
+    text-decoration: none;
+}
+
+/* List Styles */
+ul {
+    
+    font-family: "Funnel Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #22333B;
+}
+
+dl {
+    display: grid;
+
+    font-family: "Funnel Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #22333B;
+    
+}
+dl dt{  
+    
+     font-family: "Funnel Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #22333B;
+}
+dl dd{
+    font-family: "Funnel Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #5E503F;
+}
+
+.honors{
+display: grid;
+grid-template: 1fr 1fr 1fr;
+}
+
+.leadership{
+    display: grid;
+    grid-column: span;
+
+    }
+    
+
+/* Project Section */
+.three-col {
+   
+    display: grid;
+   
+    grid-template-columns: 30% 30% 30%;
+    font-family: "Anta", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #5E503F;
+    padding: 10px;
+
+
+    
+}
+
+.card {
+box-shadow: 0 2px 4px #5E503F;
+  transition: 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+ 
+
+}
+
+.card img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px #5E503F;
+    justify-content: center;
+}
+
+.card h3 {
+
+    font-family: "Anta", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #5E503F;
+  
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+   
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+
+form {
+    font-family: "Funnel Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #22333B;
+    
+    
+}
+
+form input, form textarea {
+    font-family: "Funnel Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5E503F;
+    padding: 1%;
+}
+
+form input:focus, form textarea:focus {
+    box-shadow: 2px 2px 1px #5E503F;
+    
+
+}
+
+form button {
+    font-family: "Anta", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #698996;
+  
+}
+
+form button:hover {
+    box-shadow: 2px 2px 1px #5E503F;
+
+}
